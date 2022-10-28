@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from '../images/logo.jpg';
 
 const About = () => {
   return (
@@ -27,11 +26,11 @@ const About = () => {
         </div>
         {/* <!--Right Col--> */}
         <div className="w-full lg:w-1/2 lg:py-6 text-center">
-          <img
+          {/* <img
             src={Logo}
             className="mt-[-100px] scale-75 w-auto mx-auto"
             alt="Forum of Passion Podcast"
-          />
+          /> */}
         </div>
       </div>
     </div>
